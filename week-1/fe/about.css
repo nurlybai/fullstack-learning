@@ -46,7 +46,7 @@ section {
     border: 3px solid #eee;
 }
 
-/* Сброс обтекания для секции "Обо мне" */
+/* Сброс обтекания */
 .profile-section::after {
     content: "";
     display: table;
@@ -61,7 +61,6 @@ li {
     margin-bottom: 10px;
 }
 
-/* Стилизация ссылок */
 a {
     color: #0076ff;
     text-decoration: none;
